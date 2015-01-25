@@ -5,8 +5,11 @@
 # 	node packages:
 # 		yo 
 # 		bower
+#		gulp
+#		keystone
+#		generator-keystone
+#		node-sass-middleware
 # 	MongoDB
-#	Apache
 
 #install git
 sudo apt-get install git -y
@@ -32,10 +35,6 @@ echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | 
 
 sudo apt-get update
 sudo apt-get install -y mongodb-org
-
-#install apache
-sudo apt-get install apache2 -y
-
 
 sudo apt-get install keystone
 npm install node-sass-middleware
