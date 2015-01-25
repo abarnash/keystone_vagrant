@@ -66,6 +66,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
   end
 
-  config.vm.synced_folder "src", "/srv/leashsite"
-
 end
